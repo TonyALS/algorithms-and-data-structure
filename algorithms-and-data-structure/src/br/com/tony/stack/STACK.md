@@ -10,4 +10,4 @@ A lógica implementada se baseia em um array de elementos do tipo `E` chamado `s
 * `E pop()`: remove o item no topo da pilha e o retorna. Lança um `EmptyStackError` caso a pilha esteja vazia. <br>
 * `int size()`: retorna o tamanho da pilha. <br>
 * `boolean isEmpty()`: indica se a pilha está vazia. <br>
-* `E top()`: retorna o elemento no topo da pilha. Lança um `EmptyStackError` caso a pilha esteja vazia. <br>
+* `E top()`: retorna o elemento no topo da pilha sem removê-lo. Lança um `EmptyStackError` caso a pilha esteja vazia. <br>
