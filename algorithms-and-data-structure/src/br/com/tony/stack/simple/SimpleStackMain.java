@@ -7,7 +7,6 @@ public class SimpleStackMain {
         stack.push("B");
         stack.push("C");
         stack.push("D");
-        stack.push("E");
 
         System.out.println("Before remove: " + stack);
         System.out.println("Stack size: " + stack.size());
