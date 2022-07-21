@@ -1,6 +1,6 @@
-package br.com.tony.stack;
+package br.com.tony.stack.simple;
 
-public class StackMain {
+public class SimpleStackMain {
     public static void main(String[] args) {
         StackImpl<String> stack = new StackImpl<>(new String[4]);
         stack.push("A");

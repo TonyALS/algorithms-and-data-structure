@@ -1,6 +1,7 @@
-package br.com.tony.stack;
+package br.com.tony.stack.simple;
 
 
+import br.com.tony.stack.IStack;
 import br.com.tony.stack.exceptions.EmptyStackError;
 import br.com.tony.stack.exceptions.FullStackError;
 
